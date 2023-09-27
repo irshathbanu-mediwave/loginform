@@ -1,16 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
 body {
   background-color: darkorchid;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
 }
 
 .container {
   width: 400px;
-  padding: 0px;
+  height: 500px;
+  padding: 10px;
   text-align: center;
   margin: 0 auto;
+  margin-top: 40px;
   border: 5px solid #c4cddb;
   border-top-color: #d3dbde;
   border-bottom-color: #bfc9dc;
-  box-shadow: 0 1px 1px #ccc;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   position: relative;
   background: #fefefe;
@@ -20,12 +26,31 @@ h2 {
   padding: 10px 0;
   font-size: 24px;
   text-align: center;
-  text-shadow: 1px 1px 0 #fff;
-  background: #eff4f7;
+  text-shadow: 1px 1px #fff;
+  color: #fff;
+  background: slateblue;
 }
 input {
   padding: 10px 10px;
   border: 1px solid #d5d9da;
   border-radius: 5px;
   cursor: pointer;
+}
+#email {
+  width: 300px;
+  border: 2px solid #c4cddb;
+}
+#password {
+  width: 300px;
+  border: 2px solid #c4cddb;
+}
+#submit {
+  margin: auto;
+  margin-top: 10px;
+  height: 50px;
+  width: 310px;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: slateblue;
 }

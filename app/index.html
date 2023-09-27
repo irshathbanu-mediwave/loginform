@@ -12,18 +12,21 @@
       <form id="loginform">
         <h2>Login Form</h2>
         <label for="email">Enter your Email :</label>
+        <br />
         <input
           id="email"
           name="username"
           type="email"
           placeholder="Email"
-    
           required
         />
+        <div id="email-error"></div>
         <br />
         <br />
         <label for="Password">Enter your Password :</label>
-        <input id="password" type="password" />
+        <br />
+        <input id="password" type="password" required />
+        <div id="password-error"></div>
         <!-- <h5 id="passcheck" style="color: red">**Please Fill the password</h5> -->
         <br />
         <button type="submit" id="submit">Login</button>

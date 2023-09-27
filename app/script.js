@@ -1,6 +1,7 @@
 $(document).ready(function () {
   $("#loginform").submit(function (event) {
     event.preventDefault();
+
     validationPassword();
     let data = [];
     const useremail = $("#email").val();
@@ -11,7 +12,8 @@ $(document).ready(function () {
       password: userpassword,
     };
     data.push(value);
-    console.log(data);
+    console.log(JSON.stringify(data));
+    clearform();
   });
 });
 function validationPassword() {
